@@ -18,6 +18,8 @@ set -v
 
 # Talk to the metadata server to get the project id
 PROJECTID=gce-node
+GCLOUD_PROJECT=gce-node
+export GCLOUD_PROJECT=gce-node
 
 # Install logging monitor. The monitor will automatically pick up logs sent to
 # syslog.
