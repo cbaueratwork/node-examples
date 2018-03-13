@@ -1,0 +1,8 @@
+{
+  "GCLOUD_PROJECT": "gce-node",
+  "CLOUD_BUCKET": "gce-node-bucket",
+  "DATA_BACKEND": "datastore",
+  "OAUTH2_CLIENT_ID": "640157313854-qq4ck81f8426ricsdagoo81p901r7an7.apps.googleusercontent.com",
+  "OAUTH2_CLIENT_SECRET": "sj-SDLdYBaW54VJWMgyGPw8S",
+  "OAUTH2_CALLBACK": "http://localhost:8080/auth/google/callback"
+}
