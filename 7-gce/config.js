@@ -56,7 +56,7 @@ nconf
     DATA_BACKEND: 'datastore',
 
     // This is the id of your project in the Google Cloud Developers Console.
-    GCLOUD_PROJECT: '',
+    GCLOUD_PROJECT: 'gce-node',
 
     // Connection url for the Memcache instance used to store session data
     MEMCACHE_URL: 'localhost:11211',
