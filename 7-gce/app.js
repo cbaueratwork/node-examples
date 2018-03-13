@@ -14,10 +14,13 @@
 'use strict';
 
 // Activate Google Cloud Trace and Debug when in production
-if (process.env.NODE_ENV === 'production') {
-  require('@google-cloud/trace-agent').start();
-  require('@google-cloud/debug-agent').start();
-}
+require('@google-cloud/trace-agent').start();
+require('@google-cloud/debug-agent').start({
+  serviceContext: {
+    service: 'Node Bookshelf - GCE',
+    vesrion: '1.0'
+  }
+});
 
 const path = require('path');
 const express = require('express');
